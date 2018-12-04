@@ -1064,7 +1064,7 @@ GameObject:
   - component: {fileID: 222331158206751246}
   - component: {fileID: 114832155409520722}
   - component: {fileID: 114702433164446130}
-  - component: {fileID: 114308271288835770}
+  - component: {fileID: 7327404446789603054}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -1179,7 +1179,7 @@ MonoBehaviour:
     m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5882353}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
---- !u!114 &114308271288835770
+--- !u!114 &7327404446789603054
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1188,7 +1188,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1898570353776236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3c1517a96111b049a76c7e2bf74c370, type: 3}
+  m_Script: {fileID: 11500000, guid: 943a9a22044ed944fb0b3f0787d78e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isVisibleOnAwake: 1
