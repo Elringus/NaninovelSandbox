@@ -16,6 +16,11 @@ namespace UnityCommon
             var text = File.ReadAllText(path);
             text = text.Replace("UnityLoader.SystemInfo.mobile", "false");
             File.WriteAllText(path, text);
+
+            // Rename index.html to web.html.
+            var oldPath = Path.Combine(targetPath, "index.html");
+            var newPath = Path.Combine(targetPath, "web.html");
+            File.Move(oldPath, newPath);
         }
     }
 }
