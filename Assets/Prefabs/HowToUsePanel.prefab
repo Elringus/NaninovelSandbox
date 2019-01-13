@@ -885,7 +885,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 375}
+  m_SizeDelta: {x: 0, y: 465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3752197938346741051
 CanvasRenderer:
@@ -928,16 +928,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pressing <b>UPLOAD DATA</b> button will create a <b>NaninovelSandbox</b>
-    folder in the root of your Google Drive along with folders to store novel scripts,
-    characters, backgrounds and audio assets and upload a <b>readme.txt</b> inside
-    each of these folders explaining how to add the resources and use them in novel
-    scripts.
-
-
-    After uploading the data navigate to your Google Drive, add the required resources,
-    return to the app and press refresh button in the script navigator panel to load
-    available novel scripts.
-
-
-    Visit <b>naninovel.com</b> for more information and detailed turorials.'
+  m_Text: "Press <b>HOW TO USE</b> button and then <b>UPLOAD DATA</b> to create a
+    <b>NaninovelSandbox</b> folder in the root of your Google Drive along with a set
+    of sub-folders to store novel scripts, characters, backgrounds and audio assets;
+    <b>readme.txt</b> files will also be uploaded inside each of the sub-folders explaining
+    how to add the resources and use them in novel scripts.\r\n\r\nAfter uploading
+    the data navigate to your Google Drive, drop the required resources to the corresponding
+    sub-folders and write novel scripts using Google Documents (documents should be
+    created in the Scripts sub-folder). Return to the app and press a refresh button
+    in the script navigator panel to load the created novel scripts.\n\nVisit <b>naninovel.com/sandbox</b>
+    for more info."
