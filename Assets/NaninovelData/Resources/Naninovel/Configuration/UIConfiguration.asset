@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d763f94cb38c34eba2d7eb3eebc65d, type: 3}
+  m_Name: UIConfiguration
+  m_EditorClassIdentifier: 
+  ObjectsLayer: 5
+  RenderMode: 1
+  SortingOffset: 1
+  CustomUI:
+  - {fileID: 1520249915881564, guid: 380e6367fec77e243b5327684f9ad806, type: 3}
+  - {fileID: 1559046370377976, guid: 157d98b79e8b621498ee510ab7a29df8, type: 3}

@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 459b1e635f7a09c4a864308f63419041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disableInteraction: 0
   isVisibleOnAwake: 0
   fadeTime: 0.3
 --- !u!225 &225150071966938046
@@ -623,6 +624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ffd772239ffcb64f915714a3e8ed4a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disableInteraction: 0
   isVisibleOnAwake: 1
   fadeTime: 0.3
 --- !u!1 &6467250531754009424
@@ -848,6 +850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01edd83b2a477934c956b8b5a9eb2265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  disableInteraction: 0
   isVisibleOnAwake: 1
   fadeTime: 0.3
 --- !u!1 &7881153451287924619

@@ -41,14 +41,14 @@ public class HowToUsePanel : ScriptableUIBehaviour, IHowToUseUI
     {
         base.OnEnable();
 
-        stateManager.OnGameLoadStart += Hide;
+        stateManager.OnLoadStarted += Hide;
     }
 
     protected override void OnDisable ()
     {
         base.OnDisable();
 
-        stateManager.OnGameLoadStart -= Hide;
+        stateManager.OnLoadStarted -= Hide;
     }
 
     public Task InitializeAsync () => Task.CompletedTask;

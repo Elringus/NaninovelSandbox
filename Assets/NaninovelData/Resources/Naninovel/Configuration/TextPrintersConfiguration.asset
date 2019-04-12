@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610509a41f8e448419a7e1a6122c05c0, type: 3}
+  m_Name: TextPrintersConfiguration
+  m_EditorClassIdentifier: 
+  DefaulPrinterId: Dialogue
+  MaxPrintDelay: 0.06
+  DefaultMetadata:
+    Implementation: Naninovel.UITextPrinter
+    LoaderConfiguration:
+      PathPrefix: TextPrinters
+      ProviderTypes: 0000000001000000
+    guid: 627f5387-91b5-4d23-9efd-3b1a4028d127
+  Metadata:
+    ids:
+    - Dialogue
+    - Fullscreen
+    - Wide
+    - Chat
+    metas:
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: 7741f784-067c-4475-b758-52424acb0b7b
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: cadf09dd-760e-4df2-a76a-f9d6450305fa
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: 3155418d-5a01-44d3-a586-0b130fa4a145
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: aabcb39f-f5b1-45ba-abeb-149172d404d6
