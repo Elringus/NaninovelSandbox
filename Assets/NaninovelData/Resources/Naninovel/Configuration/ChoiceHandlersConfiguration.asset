@@ -18,7 +18,7 @@ MonoBehaviour:
     LoaderConfiguration:
       PathPrefix: ChoiceHandlers
       ProviderTypes: 0000000001000000
-    guid: da74ee9a-0d56-4a85-b736-c5ac951b6148
+    guid: 58344c74-2984-4423-95dc-1fe77fbe78f0
   Metadata:
     ids:
     - ButtonList
@@ -28,9 +28,9 @@ MonoBehaviour:
       LoaderConfiguration:
         PathPrefix: Naninovel/ChoiceHandlers
         ProviderTypes: 0000000001000000
-      guid: 9f598d2a-2b54-4feb-84d3-d9339051f598
+      guid: f008e3d4-53c3-4b7a-9af5-2b8076c7a9a1
     - Implementation: Naninovel.UIChoiceHandler
       LoaderConfiguration:
         PathPrefix: Naninovel/ChoiceHandlers
         ProviderTypes: 0000000001000000
-      guid: e009c941-ff8f-48b4-b7df-052818f87663
+      guid: 0a3af1d4-826e-4091-93e8-947ebfb880dd

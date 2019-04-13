@@ -19,7 +19,7 @@ MonoBehaviour:
     LoaderConfiguration:
       PathPrefix: TextPrinters
       ProviderTypes: 0000000001000000
-    guid: dd5fbcd9-8a8b-491c-885c-f44cbcb6d649
+    guid: b634313a-e93d-4d53-8ee9-ca2b6f43ecba
   Metadata:
     ids:
     - Dialogue
@@ -31,19 +31,19 @@ MonoBehaviour:
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 02500032-281f-4414-95ec-50dd91e31771
+      guid: c372c50d-04bb-44fa-8ad4-47db33d96a63
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 60eabc7f-6e1d-4ddd-b83e-cee4ac065cf4
+      guid: f425c27a-3318-4953-bfbc-e75ec2d08ad6
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 12eb2861-b454-47e0-ad05-75d639ac38b2
+      guid: 6c8cd751-c6ae-43c8-b77a-d5140e2bd5ef
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 5a3f2361-7183-45af-bef6-692534558444
+      guid: d3a761cd-ebd4-486d-9494-d3de80dafe7d
