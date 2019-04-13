@@ -19,7 +19,7 @@ MonoBehaviour:
     LoaderConfiguration:
       PathPrefix: Backgrounds
       ProviderTypes: 0000000001000000
-    guid: c1345d94-73df-4cdf-85e1-5de163d9fe51
+    guid: cfa33681-3551-4ba5-a0ab-c9161d9b0feb
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
   Metadata:
@@ -30,6 +30,6 @@ MonoBehaviour:
       LoaderConfiguration:
         PathPrefix: Backgrounds
         ProviderTypes: 0000000001000000
-      guid: 4fe057d6-008f-4833-9c20-f00414b3eece
+      guid: 5a6cd466-eabe-4bdf-8a5f-6aff25c30241
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100

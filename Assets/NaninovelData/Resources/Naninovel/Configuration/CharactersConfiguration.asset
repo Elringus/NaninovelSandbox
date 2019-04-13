@@ -19,7 +19,7 @@ MonoBehaviour:
     LoaderConfiguration:
       PathPrefix: Characters
       ProviderTypes: 0000000001000000
-    guid: 8ac5abf1-fbc1-4510-a99a-50f2d368cebf
+    guid: 6c882e4f-ccf5-4a06-81e4-1eec2d18df80
     Pivot: {x: 0.5, y: 0}
     PixelsPerUnit: 100
     DisplayName: 
