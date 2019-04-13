@@ -15,10 +15,10 @@ MonoBehaviour:
   SceneOrigin: {x: 0.5, y: 0}
   ZOffset: 100
   DefaultMetadata:
-    Implementation: Naninovel.SpriteBackground
+    Implementation: SpriteRootBackground
     LoaderConfiguration:
       PathPrefix: Backgrounds
-      ProviderTypes: 0000000001000000
+      ProviderTypes: 02000000
     guid: 599d3988-6ace-47f2-b6c6-44e76d2d3d68
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
@@ -26,10 +26,10 @@ MonoBehaviour:
     ids:
     - MainBackground
     metas:
-    - Implementation: Naninovel.SpriteBackground
+    - Implementation: SpriteRootBackground
       LoaderConfiguration:
         PathPrefix: Backgrounds
-        ProviderTypes: 0000000001000000
+        ProviderTypes: 02000000
       guid: da6000f2-645b-40eb-b365-b7034404987b
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100

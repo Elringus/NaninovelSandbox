@@ -18,7 +18,7 @@ MonoBehaviour:
     Implementation: Naninovel.SpriteCharacter
     LoaderConfiguration:
       PathPrefix: Characters
-      ProviderTypes: 0000000001000000
+      ProviderTypes: 02000000
     guid: 02011a84-3dd9-42f8-90ec-8a5b75542b66
     Pivot: {x: 0.5, y: 0}
     PixelsPerUnit: 100
@@ -31,4 +31,4 @@ MonoBehaviour:
     metas: []
   AvatarLoader:
     PathPrefix: Avatar
-    ProviderTypes: 0000000001000000
+    ProviderTypes: 02000000

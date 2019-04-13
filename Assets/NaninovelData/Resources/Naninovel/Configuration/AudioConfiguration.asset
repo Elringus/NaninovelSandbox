@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioLoader:
     PathPrefix: Audio
-    ProviderTypes: 0000000001000000
+    ProviderTypes: 02000000
   VoiceLoader:
     PathPrefix: Voice
-    ProviderTypes: 0000000001000000
+    ProviderTypes: 02000000
   EnableAutoVoicing: 0
   CustomAudioMixer: {fileID: 0}
   MasterVolumeHandleName: Master Volume

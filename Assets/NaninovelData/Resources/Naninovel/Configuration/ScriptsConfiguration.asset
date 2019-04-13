@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Loader:
     PathPrefix: Scripts
-    ProviderTypes: 0000000001000000
+    ProviderTypes: 02000000
   InitializationScript: 
   TitleScript: 
   StartGameScript: 

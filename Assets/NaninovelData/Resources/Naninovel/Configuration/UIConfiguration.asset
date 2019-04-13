@@ -15,4 +15,6 @@ MonoBehaviour:
   ObjectsLayer: 5
   RenderMode: 1
   SortingOffset: 1
-  CustomUI: []
+  CustomUI:
+  - {fileID: 1520249915881564, guid: 380e6367fec77e243b5327684f9ad806, type: 3}
+  - {fileID: 1559046370377976, guid: 157d98b79e8b621498ee510ab7a29df8, type: 3}

@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06386b10f29c770408fc88b031c4d7fd, type: 3}
   m_Name: EditorResources
   m_EditorClassIdentifier: 
-  resourceCategories: []
+  resourceCategories:
+  - Id: Backgrounds/da6000f2-645b-40eb-b365-b7034404987b
+    Resources: []
