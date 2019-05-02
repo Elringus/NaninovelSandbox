@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06386b10f29c770408fc88b031c4d7fd, type: 3}
-  m_Name: EditorResources
+  m_Script: {fileID: 11500000, guid: 363a6aca1d4bf3c49a1294c9ba1e9883, type: 3}
+  m_Name: UnlockablesConfiguration
   m_EditorClassIdentifier: 
-  resourceCategories:
-  - Id: Backgrounds/da6000f2-645b-40eb-b365-b7034404987b
-    Resources: []
-  - Id: Unlockables
-    Resources: []
+  LoaderConfiguration:
+    PathPrefix: Unlockables
+    ProviderTypes: 0000000001000000
