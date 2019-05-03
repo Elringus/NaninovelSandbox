@@ -8,7 +8,7 @@
 /Assets/@Transient*
 /Assets/Resources*
 /Assets/_Resources*
-/Assets/NovelSaveData*
+/Assets/NaninovelData/Saves*
 /Assets/ThirdParty*
 
 # Allow third-party dlls
