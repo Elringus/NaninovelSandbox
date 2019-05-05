@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3be34281d83bad429e22787cd3c8069, type: 3}
   m_Name: CharactersConfiguration
   m_EditorClassIdentifier: 
+  DefaultEasing: 1
   SceneOrigin: {x: 0.5, y: 0}
   AutoArrangeOnAdd: 1
   DefaultMetadata:
@@ -26,9 +27,12 @@ MonoBehaviour:
     UseCharacterColor: 0
     NameColor: {r: 1, g: 1, b: 1, a: 1}
     MessageColor: {r: 1, g: 1, b: 1, a: 1}
+    HighlightWhenSpeaking: 0
+    SpeakingTint: {r: 1, g: 1, b: 1, a: 1}
+    NotSpeakingTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   Metadata:
     ids: []
     metas: []
   AvatarLoader:
     PathPrefix: Avatar
-    ProviderTypes: 02000000
+    ProviderTypes: 0000000001000000
