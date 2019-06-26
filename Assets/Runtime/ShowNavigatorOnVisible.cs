@@ -6,12 +6,12 @@ using Naninovel;
 public class ShowNavigatorOnVisible : MonoBehaviour
 {
     private ScriptableUIBehaviour scriptableUIBehaviour;
-    private NovelScriptManager scriptManager;
+    private ScriptManager scriptManager;
 
     private void Awake ()
     {
         scriptableUIBehaviour = GetComponent<ScriptableUIBehaviour>();
-        scriptManager = Engine.GetService<NovelScriptManager>();
+        scriptManager = Engine.GetService<ScriptManager>();
     }
 
     private void OnEnable ()
