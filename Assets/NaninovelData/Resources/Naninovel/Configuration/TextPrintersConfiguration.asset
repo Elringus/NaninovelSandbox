@@ -13,38 +13,56 @@ MonoBehaviour:
   m_Name: TextPrintersConfiguration
   m_EditorClassIdentifier: 
   DefaultEasing: 0
-  DefaulPrinterId: Dialogue
+  DefaultPrinterId: Dialogue
   MaxPrintDelay: 0.06
   DefaultMetadata:
     Implementation: Naninovel.UITextPrinter
     LoaderConfiguration:
       PathPrefix: TextPrinters
       ProviderTypes: 0000000001000000
-    guid: b634313a-e93d-4d53-8ee9-ca2b6f43ecba
+    guid: e7ac592e-ccc3-4557-be2c-08365198f5e4
   Metadata:
     ids:
     - Dialogue
     - Fullscreen
     - Wide
     - Chat
+    - TMProDialogue
+    - TMProFullscreen
+    - TMProWide
     metas:
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
-      guid: c372c50d-04bb-44fa-8ad4-47db33d96a63
+      guid: 8be5a223-8343-47b7-9232-a212d0ebae80
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
-      guid: f425c27a-3318-4953-bfbc-e75ec2d08ad6
+      guid: fa4e72d5-6459-4e29-874f-310d221cf089
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 6c8cd751-c6ae-43c8-b77a-d5140e2bd5ef
+      guid: 2dcdd741-0e6d-4767-887f-a36893510989
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
-      guid: d3a761cd-ebd4-486d-9494-d3de80dafe7d
+      guid: 39d1065e-1a0d-4b6c-b8c5-6f1e0815ec6a
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: ca3380fa-ead4-40eb-8b59-c2eac4cabf43
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: 360575de-2dcf-422e-aa21-48110e1cf6f3
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: Naninovel/TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: 0a413cb8-a29c-4d48-9914-08298ef336af

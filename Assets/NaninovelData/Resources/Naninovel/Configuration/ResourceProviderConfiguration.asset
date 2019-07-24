@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0142252c53e169c43a4916355d7e0109, type: 3}
   m_Name: ResourceProviderConfiguration
   m_EditorClassIdentifier: 
+  ResourcePolicy: 0
+  DynamicPolicySteps: 25
+  OptimizeLoadingPriority: 1
   LogResourceLoading: 1
+  EnableBuildProcessing: 1
+  UseAddressables: 1
+  AutoBuildBundles: 1
   LocalRootPath: Resources
   GoogleDriveRootPath: NaninovelSandbox
   GoogleDriveRequestLimit: 2

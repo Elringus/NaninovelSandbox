@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2cdf0df4ee3a01488d71a4f9583fdaf, type: 3}
   m_Name: BackgroundsConfiguration
   m_EditorClassIdentifier: 
+  DefaultEasing: 0
   SceneOrigin: {x: 0.5, y: 0}
   ZOffset: 100
   DefaultMetadata:
     Implementation: SpriteRootBackground
     LoaderConfiguration:
       PathPrefix: Backgrounds
-      ProviderTypes: 02000000
+      ProviderTypes: 000000000100000003000000
     guid: 599d3988-6ace-47f2-b6c6-44e76d2d3d68
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
@@ -29,7 +30,7 @@ MonoBehaviour:
     - Implementation: SpriteRootBackground
       LoaderConfiguration:
         PathPrefix: Backgrounds
-        ProviderTypes: 02000000
+        ProviderTypes: 000000000100000003000000
       guid: da6000f2-645b-40eb-b365-b7034404987b
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100

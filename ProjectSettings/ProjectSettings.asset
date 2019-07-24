@@ -610,7 +610,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: UNITY_CCU
     7: UNITY_CCU;UNITY_GOOGLE_DRIVE_AVAILABLE
-    13: UNITY_CCU;UNITY_GOOGLE_DRIVE_AVAILABLE
+    13: 
   platformArchitecture: {}
   scriptingBackend:
     Android: 1

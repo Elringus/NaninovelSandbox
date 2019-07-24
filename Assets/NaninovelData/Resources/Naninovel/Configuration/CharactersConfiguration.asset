@@ -19,10 +19,11 @@ MonoBehaviour:
     Implementation: Naninovel.SpriteCharacter
     LoaderConfiguration:
       PathPrefix: Characters
-      ProviderTypes: 02000000
+      ProviderTypes: 000000000100000003000000
     guid: 02011a84-3dd9-42f8-90ec-8a5b75542b66
     Pivot: {x: 0.5, y: 0}
     PixelsPerUnit: 100
+    BakedLookDirection: 1
     DisplayName: 
     UseCharacterColor: 0
     NameColor: {r: 1, g: 1, b: 1, a: 1}
@@ -30,6 +31,7 @@ MonoBehaviour:
     HighlightWhenSpeaking: 0
     SpeakingTint: {r: 1, g: 1, b: 1, a: 1}
     NotSpeakingTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    MessageSound: 
   Metadata:
     ids: []
     metas: []

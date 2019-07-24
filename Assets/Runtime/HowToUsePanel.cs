@@ -41,14 +41,14 @@ public class HowToUsePanel : ScriptableUIBehaviour, IHowToUseUI
     {
         base.OnEnable();
 
-        stateManager.OnLoadStarted += Hide;
+        stateManager.OnGameLoadStarted += HandleLoadStarted;
     }
 
     protected override void OnDisable ()
     {
         base.OnDisable();
 
-        stateManager.OnLoadStarted -= Hide;
+        stateManager.OnGameLoadStarted -= HandleLoadStarted;
     }
 
     public Task InitializeAsync () => Task.CompletedTask;
@@ -79,4 +79,6 @@ public class HowToUsePanel : ScriptableUIBehaviour, IHowToUseUI
         UploadProgress = 0f;
         return success;
     }
+
+    private void HandleLoadStarted (GameSaveLoadArgs args) => Hide();
 }

@@ -17,3 +17,13 @@ MonoBehaviour:
     Resources: []
   - Id: Unlockables
     Resources: []
+  - Id: TextPrinters/c9062c7d-b22e-4b55-941b-d79620a4ff8f
+    Resources:
+    - Name: TMProDialogue
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/ca3380fa-ead4-40eb-8b59-c2eac4cabf43
+    Resources:
+    - Name: TMProDialogue
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LoaderConfiguration:
     PathPrefix: Localization
-    ProviderTypes: 0000000001000000
+    ProviderTypes: 000000000100000003000000
   DefaultLocale: en
