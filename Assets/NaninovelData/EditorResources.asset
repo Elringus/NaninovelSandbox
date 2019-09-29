@@ -27,3 +27,28 @@ MonoBehaviour:
     - Name: TMProDialogue
       PathPrefix: Naninovel/TextPrinters
       Guid: 
+  - Id: Naninovel/TextPrinters/8be5a223-8343-47b7-9232-a212d0ebae80
+    Resources:
+    - Name: Dialogue
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 0c7ad8c02fbc28a43b25ac946be5c361
+  - Id: Naninovel/TextPrinters/fa4e72d5-6459-4e29-874f-310d221cf089
+    Resources:
+    - Name: Fullscreen
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 661930b2b6204f14baf58f94b975b6f5
+  - Id: Naninovel/TextPrinters/2dcdd741-0e6d-4767-887f-a36893510989
+    Resources:
+    - Name: Wide
+      PathPrefix: Naninovel/TextPrinters
+      Guid: fb0ece97b6cd13848973923a164c71ec
+  - Id: Naninovel/TextPrinters/39d1065e-1a0d-4b6c-b8c5-6f1e0815ec6a
+    Resources:
+    - Name: Chat
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 52ac604e52fcd7e48a51a55b06aa084b
+  - Id: TextPrinters/ee930a70-88a1-410d-b8c0-7d17f9ca19fa
+    Resources:
+    - Name: Bubble
+      PathPrefix: TextPrinters
+      Guid: a286e3fcfb3645145a6c50ef5b4283c0

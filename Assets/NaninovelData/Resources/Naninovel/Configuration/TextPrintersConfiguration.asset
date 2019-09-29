@@ -13,20 +13,24 @@ MonoBehaviour:
   m_Name: TextPrintersConfiguration
   m_EditorClassIdentifier: 
   DefaultEasing: 0
+  SceneOrigin: {x: 0.5, y: 0}
   DefaultPrinterId: Dialogue
-  MaxPrintDelay: 0.06
+  MaxRevealDelay: 0.06
   DefaultMetadata:
     Implementation: Naninovel.UITextPrinter
     LoaderConfiguration:
       PathPrefix: TextPrinters
       ProviderTypes: 0000000001000000
     guid: e7ac592e-ccc3-4557-be2c-08365198f5e4
+    Pivot: {x: 0.5, y: 0.5}
+    PixelsPerUnit: 100
   Metadata:
     ids:
     - Dialogue
     - Fullscreen
     - Wide
     - Chat
+    - Bubble
     - TMProDialogue
     - TMProFullscreen
     - TMProWide
@@ -36,33 +40,54 @@ MonoBehaviour:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
       guid: 8be5a223-8343-47b7-9232-a212d0ebae80
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
       guid: fa4e72d5-6459-4e29-874f-310d221cf089
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
       guid: 2dcdd741-0e6d-4767-887f-a36893510989
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
       guid: 39d1065e-1a0d-4b6c-b8c5-6f1e0815ec6a
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
+    - Implementation: Naninovel.UITextPrinter
+      LoaderConfiguration:
+        PathPrefix: TextPrinters
+        ProviderTypes: 0000000001000000
+      guid: ee930a70-88a1-410d-b8c0-7d17f9ca19fa
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
       guid: ca3380fa-ead4-40eb-8b59-c2eac4cabf43
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
       guid: 360575de-2dcf-422e-aa21-48110e1cf6f3
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
     - Implementation: Naninovel.UITextPrinter
       LoaderConfiguration:
         PathPrefix: Naninovel/TextPrinters
         ProviderTypes: 0000000001000000
       guid: 0a413cb8-a29c-4d48-9914-08298ef336af
+      Pivot: {x: 0.5, y: 0.5}
+      PixelsPerUnit: 100
