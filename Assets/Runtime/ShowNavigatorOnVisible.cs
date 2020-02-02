@@ -1,5 +1,4 @@
-﻿using UnityCommon;
-using UnityEngine;
+﻿using UnityEngine;
 using Naninovel;
 
 [RequireComponent(typeof(ScriptableUIBehaviour))]
@@ -26,6 +25,6 @@ public class ShowNavigatorOnVisible : MonoBehaviour
 
     private void HandleVisibilityChanged (bool isVisible)
     {
-        if (isVisible) scriptManager.ShowNavigator();
+        if (isVisible) scriptManager.ScriptNavigator.Show();
     }
 }

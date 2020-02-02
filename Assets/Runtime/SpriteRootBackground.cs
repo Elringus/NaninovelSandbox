@@ -13,8 +13,8 @@ public class SpriteRootBackground : SpriteBackground
         var providerMngr = Engine.GetService<ResourceProviderManager>();
         var localeMngr = Engine.GetService<LocalizationManager>();
         var appearanceLoader = new LocalizableResourceLoader<Texture2D>(
-            providerMngr.GetProviderList(metadata.LoaderConfiguration.ProviderTypes),
-            localeMngr, metadata.LoaderConfiguration.PathPrefix);
+            providerMngr.GetProviders(metadata.Loader.ProviderTypes),
+            localeMngr, metadata.Loader.PathPrefix);
 
         return appearanceLoader;
     }

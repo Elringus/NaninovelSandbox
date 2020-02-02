@@ -13,24 +13,36 @@ MonoBehaviour:
   m_Name: BackgroundsConfiguration
   m_EditorClassIdentifier: 
   DefaultEasing: 0
+  AutoShowOnModify: 1
   SceneOrigin: {x: 0.5, y: 0}
   ZOffset: 100
+  ZStep: 0.1
   DefaultMetadata:
-    Implementation: SpriteRootBackground
-    LoaderConfiguration:
+    Implementation: SpriteRootBackground, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+    Loader:
       PathPrefix: Backgrounds
-      ProviderTypes: 000000000100000003000000
+      ProviderTypes: 03000000
     guid: 599d3988-6ace-47f2-b6c6-44e76d2d3d68
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
+    EnableDepthPass: 1
+    DepthAlphaCutoff: 0.5
+    CustomShader: {fileID: 0}
+    Poses: []
   Metadata:
     ids:
     - MainBackground
     metas:
-    - Implementation: SpriteRootBackground
-      LoaderConfiguration:
+    - Implementation: SpriteRootBackground, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      Loader:
         PathPrefix: Backgrounds
-        ProviderTypes: 000000000100000003000000
+        ProviderTypes: 03000000
       guid: da6000f2-645b-40eb-b365-b7034404987b
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomShader: {fileID: 0}
+      Poses: []

@@ -1,6 +1,6 @@
 ﻿using Naninovel.UI;
 using System;
-using System.Threading.Tasks;
+using UniRx.Async;
 
 public interface IHowToUseUI : IManagedUI
 {
@@ -8,5 +8,5 @@ public interface IHowToUseUI : IManagedUI
 
     float UploadProgress { get; }
 
-    Task<bool> UploadDataAsync ();
+    UniTask<bool> UploadDataAsync ();
 }

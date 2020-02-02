@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioLoader:
     PathPrefix: Audio
-    ProviderTypes: 000000000100000003000000
+    ProviderTypes: 03000000
   VoiceLoader:
     PathPrefix: Voice
-    ProviderTypes: 000000000100000003000000
+    ProviderTypes: 03000000
   EnableAutoVoicing: 0
+  VoiceOverlapPolicy: 1
   CustomAudioMixer: {fileID: 0}
   MasterVolumeHandleName: Master Volume
   BgmGroupPath: Master/BGM

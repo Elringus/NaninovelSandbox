@@ -52,3 +52,130 @@ MonoBehaviour:
     - Name: Bubble
       PathPrefix: TextPrinters
       Guid: a286e3fcfb3645145a6c50ef5b4283c0
+  - Id: Scripts
+    Resources: []
+  - Id: TextPrinters/8be5a223-8343-47b7-9232-a212d0ebae80
+    Resources:
+    - Name: Dialogue
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: Naninovel/ChoiceHandlers/f008e3d4-53c3-4b7a-9af5-2b8076c7a9a1
+    Resources:
+    - Name: ButtonList
+      PathPrefix: Naninovel/ChoiceHandlers
+      Guid: 
+  - Id: Naninovel/ChoiceHandlers/0a3af1d4-826e-4091-93e8-947ebfb880dd
+    Resources:
+    - Name: ButtonArea
+      PathPrefix: Naninovel/ChoiceHandlers
+      Guid: 
+  - Id: TextPrinters/fa4e72d5-6459-4e29-874f-310d221cf089
+    Resources:
+    - Name: Fullscreen
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/2dcdd741-0e6d-4767-887f-a36893510989
+    Resources:
+    - Name: Wide
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/39d1065e-1a0d-4b6c-b8c5-6f1e0815ec6a
+    Resources:
+    - Name: Chat
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/ca3380fa-ead4-40eb-8b59-c2eac4cabf43
+    Resources:
+    - Name: TMProDialogue
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/360575de-2dcf-422e-aa21-48110e1cf6f3
+    Resources:
+    - Name: TMProFullscreen
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: TextPrinters/0a413cb8-a29c-4d48-9914-08298ef336af
+    Resources:
+    - Name: TMProWide
+      PathPrefix: TextPrinters
+      Guid: 
+  - Id: CustomPrinters/8be5a223-8343-47b7-9232-a212d0ebae80
+    Resources:
+    - Name: Dialogue
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: CustomPrinters/fa4e72d5-6459-4e29-874f-310d221cf089
+    Resources:
+    - Name: Fullscreen
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: CustomPrinters/2dcdd741-0e6d-4767-887f-a36893510989
+    Resources:
+    - Name: Wide
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: CustomPrinters/39d1065e-1a0d-4b6c-b8c5-6f1e0815ec6a
+    Resources:
+    - Name: Chat
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: CustomPrinters/ee930a70-88a1-410d-b8c0-7d17f9ca19fa
+    Resources:
+    - Name: Bubble
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/de21795e-1adc-4c78-b0fb-149a25ba5f47
+    Resources:
+    - Name: Fullscreen
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/7625fe20-71c5-431e-b9c3-be0d4f21768f
+    Resources:
+    - Name: Dialogue
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: CustomPrinters/7625fe20-71c5-431e-b9c3-be0d4f21768f
+    Resources:
+    - Name: Dialogue
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: CustomPrinters/de21795e-1adc-4c78-b0fb-149a25ba5f47
+    Resources:
+    - Name: Fullscreen
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/0b27f92c-862e-458f-9d88-e191f4790d3e
+    Resources:
+    - Name: Wide
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: CustomPrinters/0b27f92c-862e-458f-9d88-e191f4790d3e
+    Resources:
+    - Name: Wide
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/0c0f0574-dc76-4b5b-ab42-1bcb3d9f977f
+    Resources:
+    - Name: Chat
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: CustomPrinters/0c0f0574-dc76-4b5b-ab42-1bcb3d9f977f
+    Resources:
+    - Name: Chat
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/630c4ea3-dce7-4a62-9b24-ca61dba212e7
+    Resources:
+    - Name: Bubble
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 
+  - Id: CustomPrinters/630c4ea3-dce7-4a62-9b24-ca61dba212e7
+    Resources:
+    - Name: Bubble
+      PathPrefix: CustomPrinters
+      Guid: 
+  - Id: Naninovel/TextPrinters/13b8790d-af7e-4dcb-a446-c6d5a1a4a438
+    Resources:
+    - Name: TMProDialogue
+      PathPrefix: Naninovel/TextPrinters
+      Guid: 

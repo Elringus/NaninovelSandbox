@@ -1,14 +1,13 @@
-﻿using Naninovel;
+﻿using Naninovel.UI;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Threading.Tasks;
-using UnityCommon;
+using UniRx.Async;
 using UnityEngine;
 using UnityGoogleDrive;
 
 [RequireComponent(typeof(CanvasGroup))]
-public class HowToUsePanel : ScriptableUIBehaviour, IHowToUseUI
+public class HowToUsePanel : CustomUI, IHowToUseUI
 {
     private readonly struct UploadFile
     {
@@ -28,31 +27,6 @@ public class HowToUsePanel : ScriptableUIBehaviour, IHowToUseUI
 
     public float UploadProgress { get; private set; } = 0f;
 
-    private StateManager stateManager;
-
-    protected override void Awake ()
-    {
-        base.Awake();
-
-        stateManager = Engine.GetService<StateManager>();
-    }
-
-    protected override void OnEnable ()
-    {
-        base.OnEnable();
-
-        stateManager.OnGameLoadStarted += HandleLoadStarted;
-    }
-
-    protected override void OnDisable ()
-    {
-        base.OnDisable();
-
-        stateManager.OnGameLoadStarted -= HandleLoadStarted;
-    }
-
-    public Task InitializeAsync () => Task.CompletedTask;
-
     private static readonly List<UploadFile> uploadFiles = new List<UploadFile> {
         new UploadFile("Scripts", "Create Google Documents in this folder to use them as novel scripts.\n\nValid scripts will be avilable at the Script Navigator and you can use `@goto DocumentName` in scripts to load them."),
         new UploadFile("Characters", "Create folders with character names in this folder. Inside each character folder place .png files to use them as character appearances.\n\nUse `@char FolderName.FileName` in novel scripts to show character with a specific appearance."),
@@ -60,7 +34,7 @@ public class HowToUsePanel : ScriptableUIBehaviour, IHowToUseUI
         new UploadFile("Audio", "Place .mp3 files in this folder to use them as background music (bgm) and sound effects (sfx).\n\nUse `@bgm FileName` and `@sfx FileName` in novel scripts to use them.")
     };
 
-    public async Task<bool> UploadDataAsync ()
+    public async UniTask<bool> UploadDataAsync ()
     {
         var success = true;
 
@@ -79,6 +53,4 @@ public class HowToUsePanel : ScriptableUIBehaviour, IHowToUseUI
         UploadProgress = 0f;
         return success;
     }
-
-    private void HandleLoadStarted (GameSaveLoadArgs args) => Hide();
 }

@@ -1,5 +1,4 @@
 ﻿using Naninovel;
-using UnityCommon;
 using UnityEngine.UI;
 
 public class HowToUseUploadButton : ScriptableButton
@@ -47,12 +46,12 @@ public class HowToUseUploadButton : ScriptableButton
         if (!isVisible) return;
 
         label.text = initialLabelText;
-        SetIsInteractable(true);
+        SetInteractable(true);
     }
 
     private async void HandleDataUploadAsync (IHowToUseUI howToUseUI)
     {
-        SetIsInteractable(false);
+        SetInteractable(false);
 
         howToUseUI.OnUploadProgress += HandleUploadProgress;
         var success = await howToUseUI.UploadDataAsync();

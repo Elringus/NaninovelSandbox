@@ -1,5 +1,4 @@
 ﻿using Naninovel;
-using UnityCommon;
 
 public class TitleHowToUseButton : ScriptableButton
 {

@@ -14,11 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Loader:
     PathPrefix: Scripts
-    ProviderTypes: 000000000100000003000000
-  GlobalDefinesScript: 
+    ProviderTypes: 03000000
   InitializationScript: 
   TitleScript: 
   StartGameScript: 
+  AutoAddScripts: 1
+  HotReloadScripts: 1
+  CountTotalCommands: 0
+  EnableVisualEditor: 1
+  HideUnusedParameters: 1
+  InsertLineKey: 32
+  InsertLineModifier: 2
+  SaveScriptKey: 115
+  SaveScriptModifier: 2
+  VisualEditorPageLength: 1000
+  CustomStyleSheet: {fileID: 0}
   EnableCommunityModding: 0
   ExternalLoader:
     PathPrefix: Scripts

@@ -1,4 +1,4 @@
-﻿using UnityCommon;
+﻿using Naninovel;
 
 public class HowToUseReturnButton : ScriptableButton
 {
