@@ -28,7 +28,7 @@ MonoBehaviour:
     Loader:
       PathPrefix: TextPrinters
       ProviderTypes: 0000000001000000
-    guid: a5c3196c-f366-45f8-870a-fea5d7128306
+    guid: a5edc37d-bdd6-4bcd-aa6f-f6a3ac4824e0
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
     EnableDepthPass: 1
@@ -52,9 +52,9 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: CustomPrinters
+        PathPrefix: TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 7625fe20-71c5-431e-b9c3-be0d4f21768f
+      guid: 7a4aa8f0-a7b8-4733-940e-9835fa20d5df
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -66,9 +66,9 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: CustomPrinters
+        PathPrefix: TextPrinters
         ProviderTypes: 0000000001000000
-      guid: de21795e-1adc-4c78-b0fb-149a25ba5f47
+      guid: b564cdd1-1c54-4948-b4fa-6ca6266c4d8e
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -80,9 +80,9 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: CustomPrinters
+        PathPrefix: TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 0b27f92c-862e-458f-9d88-e191f4790d3e
+      guid: c233dac3-3108-47aa-950c-3e107a354778
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -94,9 +94,9 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: CustomPrinters
+        PathPrefix: TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 0c0f0574-dc76-4b5b-ab42-1bcb3d9f977f
+      guid: 7ef97e5e-eb1c-42f8-a03b-88275603e3ca
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -108,9 +108,9 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: CustomPrinters
+        PathPrefix: TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 630c4ea3-dce7-4a62-9b24-ca61dba212e7
+      guid: b090f864-445c-41d2-b06d-4e4d0cb5b438
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -122,9 +122,9 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/TextPrinters
+        PathPrefix: TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 13b8790d-af7e-4dcb-a446-c6d5a1a4a438
+      guid: a2e9d049-f333-4688-8312-913f89fe458b
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -136,9 +136,9 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/TextPrinters
+        PathPrefix: TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 8fd4b6b8-f714-473c-96c1-196491ec648b
+      guid: 0b7ddd42-e935-4a90-b61c-42a0aad21042
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -150,9 +150,9 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/TextPrinters
+        PathPrefix: TextPrinters
         ProviderTypes: 0000000001000000
-      guid: 9047a33b-2b39-48b9-890c-16d6615abef8
+      guid: 5d0e8099-badc-4c2d-94ff-3249af61f932
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1
@@ -164,9 +164,9 @@ MonoBehaviour:
     - Implementation: Naninovel.UITextPrinter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/TextPrinters
+        PathPrefix: TextPrinters
         ProviderTypes: 0000000001000000
-      guid: e6e86e00-02b8-493b-9ced-7c49c4ffee64
+      guid: 24e4fd00-43f6-4a2f-9133-87b83936cd23
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100
       EnableDepthPass: 1

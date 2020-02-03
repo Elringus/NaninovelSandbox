@@ -13,169 +13,140 @@ MonoBehaviour:
   m_Name: EditorResources
   m_EditorClassIdentifier: 
   resourceCategories:
-  - Id: Backgrounds/da6000f2-645b-40eb-b365-b7034404987b
-    Resources: []
-  - Id: Unlockables
-    Resources: []
-  - Id: TextPrinters/c9062c7d-b22e-4b55-941b-d79620a4ff8f
-    Resources:
-    - Name: TMProDialogue
-      PathPrefix: TextPrinters
-      Guid: 
-  - Id: Naninovel/TextPrinters/ca3380fa-ead4-40eb-8b59-c2eac4cabf43
-    Resources:
-    - Name: TMProDialogue
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 
-  - Id: Naninovel/TextPrinters/8be5a223-8343-47b7-9232-a212d0ebae80
+  - Id: TextPrinters/7a4aa8f0-a7b8-4733-940e-9835fa20d5df
     Resources:
     - Name: Dialogue
-      PathPrefix: Naninovel/TextPrinters
+      PathPrefix: TextPrinters
       Guid: 0c7ad8c02fbc28a43b25ac946be5c361
-  - Id: Naninovel/TextPrinters/fa4e72d5-6459-4e29-874f-310d221cf089
+  - Id: TextPrinters/b564cdd1-1c54-4948-b4fa-6ca6266c4d8e
     Resources:
     - Name: Fullscreen
-      PathPrefix: Naninovel/TextPrinters
+      PathPrefix: TextPrinters
       Guid: 661930b2b6204f14baf58f94b975b6f5
-  - Id: Naninovel/TextPrinters/2dcdd741-0e6d-4767-887f-a36893510989
+  - Id: TextPrinters/c233dac3-3108-47aa-950c-3e107a354778
     Resources:
     - Name: Wide
-      PathPrefix: Naninovel/TextPrinters
+      PathPrefix: TextPrinters
       Guid: fb0ece97b6cd13848973923a164c71ec
-  - Id: Naninovel/TextPrinters/39d1065e-1a0d-4b6c-b8c5-6f1e0815ec6a
+  - Id: TextPrinters/7ef97e5e-eb1c-42f8-a03b-88275603e3ca
     Resources:
     - Name: Chat
-      PathPrefix: Naninovel/TextPrinters
+      PathPrefix: TextPrinters
       Guid: 52ac604e52fcd7e48a51a55b06aa084b
-  - Id: TextPrinters/ee930a70-88a1-410d-b8c0-7d17f9ca19fa
+  - Id: TextPrinters/b090f864-445c-41d2-b06d-4e4d0cb5b438
     Resources:
     - Name: Bubble
       PathPrefix: TextPrinters
       Guid: a286e3fcfb3645145a6c50ef5b4283c0
-  - Id: Scripts
-    Resources: []
-  - Id: TextPrinters/8be5a223-8343-47b7-9232-a212d0ebae80
-    Resources:
-    - Name: Dialogue
-      PathPrefix: TextPrinters
-      Guid: 
-  - Id: Naninovel/ChoiceHandlers/f008e3d4-53c3-4b7a-9af5-2b8076c7a9a1
-    Resources:
-    - Name: ButtonList
-      PathPrefix: Naninovel/ChoiceHandlers
-      Guid: 
-  - Id: Naninovel/ChoiceHandlers/0a3af1d4-826e-4091-93e8-947ebfb880dd
-    Resources:
-    - Name: ButtonArea
-      PathPrefix: Naninovel/ChoiceHandlers
-      Guid: 
-  - Id: TextPrinters/fa4e72d5-6459-4e29-874f-310d221cf089
-    Resources:
-    - Name: Fullscreen
-      PathPrefix: TextPrinters
-      Guid: 
-  - Id: TextPrinters/2dcdd741-0e6d-4767-887f-a36893510989
-    Resources:
-    - Name: Wide
-      PathPrefix: TextPrinters
-      Guid: 
-  - Id: TextPrinters/39d1065e-1a0d-4b6c-b8c5-6f1e0815ec6a
-    Resources:
-    - Name: Chat
-      PathPrefix: TextPrinters
-      Guid: 
-  - Id: TextPrinters/ca3380fa-ead4-40eb-8b59-c2eac4cabf43
+  - Id: TextPrinters/a2e9d049-f333-4688-8312-913f89fe458b
     Resources:
     - Name: TMProDialogue
       PathPrefix: TextPrinters
-      Guid: 
-  - Id: TextPrinters/360575de-2dcf-422e-aa21-48110e1cf6f3
+      Guid: 5838611042eaced44954639c4ea4d81e
+  - Id: TextPrinters/0b7ddd42-e935-4a90-b61c-42a0aad21042
     Resources:
     - Name: TMProFullscreen
       PathPrefix: TextPrinters
-      Guid: 
-  - Id: TextPrinters/0a413cb8-a29c-4d48-9914-08298ef336af
+      Guid: a2aaa417785eeca409e78c404f333ee5
+  - Id: TextPrinters/5d0e8099-badc-4c2d-94ff-3249af61f932
     Resources:
     - Name: TMProWide
       PathPrefix: TextPrinters
-      Guid: 
-  - Id: CustomPrinters/8be5a223-8343-47b7-9232-a212d0ebae80
+      Guid: 7860ef40eae6a3341be02586f7edd980
+  - Id: TextPrinters/24e4fd00-43f6-4a2f-9133-87b83936cd23
     Resources:
-    - Name: Dialogue
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: CustomPrinters/fa4e72d5-6459-4e29-874f-310d221cf089
+    - Name: TMProBubble
+      PathPrefix: TextPrinters
+      Guid: 18cfa78b5fc89b745ba69d51a6a8629a
+  - Id: ChoiceHandlers/08fb6c68-b461-4351-bd1a-3ef52f47cb05
     Resources:
-    - Name: Fullscreen
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: CustomPrinters/2dcdd741-0e6d-4767-887f-a36893510989
+    - Name: ButtonList
+      PathPrefix: ChoiceHandlers
+      Guid: 1f6aa29000e839c409e6a9c0704adc96
+  - Id: ChoiceHandlers/2f280e3f-37dc-41c0-9b5e-8f3351c9ff42
     Resources:
-    - Name: Wide
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: CustomPrinters/39d1065e-1a0d-4b6c-b8c5-6f1e0815ec6a
+    - Name: ButtonArea
+      PathPrefix: ChoiceHandlers
+      Guid: 4fa6d62f894ae6e4698bfa8af59e7942
+  - Id: Spawn
     Resources:
-    - Name: Chat
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: CustomPrinters/ee930a70-88a1-410d-b8c0-7d17f9ca19fa
+    - Name: Animate
+      PathPrefix: Spawn
+      Guid: 7bf06fa813bb9c34daf521998fa72ab1
+    - Name: DepthOfField
+      PathPrefix: Spawn
+      Guid: ea76638b26a915946b62907dd1e776fd
+    - Name: DigitalGlitch
+      PathPrefix: Spawn
+      Guid: be75a73ecccb90b4caa5c14edb9ac467
+    - Name: Rain
+      PathPrefix: Spawn
+      Guid: a9117e2fa90704d45b3e1461596c11ee
+    - Name: ShakeBackground
+      PathPrefix: Spawn
+      Guid: 9f56c556ba32fd54fae62347c25a8145
+    - Name: ShakeCamera
+      PathPrefix: Spawn
+      Guid: 1c5b86cf3cfbb1f44ae5641699077da4
+    - Name: ShakeCharacter
+      PathPrefix: Spawn
+      Guid: 1224d69e1592d624cbde93d0f7383d91
+    - Name: ShakePrinter
+      PathPrefix: Spawn
+      Guid: 2795040988e866646801c80024c50be1
+    - Name: Snow
+      PathPrefix: Spawn
+      Guid: 9f4e71cb27fffa04486737d2cf8d622d
+    - Name: SunShafts
+      PathPrefix: Spawn
+      Guid: c4bf810b9b6cc9f44a58fd670678ded4
+  - Id: UI
     Resources:
-    - Name: Bubble
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: Naninovel/TextPrinters/de21795e-1adc-4c78-b0fb-149a25ba5f47
-    Resources:
-    - Name: Fullscreen
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 
-  - Id: Naninovel/TextPrinters/7625fe20-71c5-431e-b9c3-be0d4f21768f
-    Resources:
-    - Name: Dialogue
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 
-  - Id: CustomPrinters/7625fe20-71c5-431e-b9c3-be0d4f21768f
-    Resources:
-    - Name: Dialogue
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: CustomPrinters/de21795e-1adc-4c78-b0fb-149a25ba5f47
-    Resources:
-    - Name: Fullscreen
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: Naninovel/TextPrinters/0b27f92c-862e-458f-9d88-e191f4790d3e
-    Resources:
-    - Name: Wide
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 
-  - Id: CustomPrinters/0b27f92c-862e-458f-9d88-e191f4790d3e
-    Resources:
-    - Name: Wide
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: Naninovel/TextPrinters/0c0f0574-dc76-4b5b-ab42-1bcb3d9f977f
-    Resources:
-    - Name: Chat
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 
-  - Id: CustomPrinters/0c0f0574-dc76-4b5b-ab42-1bcb3d9f977f
-    Resources:
-    - Name: Chat
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: Naninovel/TextPrinters/630c4ea3-dce7-4a62-9b24-ca61dba212e7
-    Resources:
-    - Name: Bubble
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 
-  - Id: CustomPrinters/630c4ea3-dce7-4a62-9b24-ca61dba212e7
-    Resources:
-    - Name: Bubble
-      PathPrefix: CustomPrinters
-      Guid: 
-  - Id: Naninovel/TextPrinters/13b8790d-af7e-4dcb-a446-c6d5a1a4a438
-    Resources:
-    - Name: TMProDialogue
-      PathPrefix: Naninovel/TextPrinters
-      Guid: 
+    - Name: ClickThroughPanel
+      PathPrefix: UI
+      Guid: 702c32b2de0c0784b9a66ec90601874f
+    - Name: IBacklogUI
+      PathPrefix: UI
+      Guid: 7fba909c66b25324cb77db18679c2c96
+    - Name: ICGGalleryUI
+      PathPrefix: UI
+      Guid: 71da50c8dae82bd42ba67528804e820c
+    - Name: IConfirmationUI
+      PathPrefix: UI
+      Guid: 88d03f19bcbff914ba33a7c9895e2d7c
+    - Name: IContinueInputUI
+      PathPrefix: UI
+      Guid: 1add671f8348e8443bcc56290e82fc5e
+    - Name: IExternalScriptsUI
+      PathPrefix: UI
+      Guid: 671ceb4f549ddf046913d7debf113469
+    - Name: ILoadingUI
+      PathPrefix: UI
+      Guid: 53aad00e5cf184e458adb001c550518a
+    - Name: IMovieUI
+      PathPrefix: UI
+      Guid: f9a211517d1cb1a44964dc2254463049
+    - Name: IRollbackUI
+      PathPrefix: UI
+      Guid: a32c73a3aff4b274c85b3ff16c854b07
+    - Name: ISaveLoadUI
+      PathPrefix: UI
+      Guid: 8d53726b3d08433479398f02b4780e7f
+    - Name: ISceneTransitionUI
+      PathPrefix: UI
+      Guid: e3b234b4273b7f64ab3f1d9fe425ed23
+    - Name: ISettingsUI
+      PathPrefix: UI
+      Guid: 65c37f59e9b266f468dd5381fdc03fc3
+    - Name: ITipsUI
+      PathPrefix: UI
+      Guid: f5aae572225ee1b4c96d1a17fc5cb073
+    - Name: ITitleUI
+      PathPrefix: UI
+      Guid: 157d98b79e8b621498ee510ab7a29df8
+    - Name: IVariableInputUI
+      PathPrefix: UI
+      Guid: bb95f484e341dcd4391a572f22b7d067
+    - Name: HowToUsePanel
+      PathPrefix: UI
+      Guid: 380e6367fec77e243b5327684f9ad806

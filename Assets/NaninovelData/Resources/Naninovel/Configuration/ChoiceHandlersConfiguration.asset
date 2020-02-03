@@ -21,7 +21,7 @@ MonoBehaviour:
     Loader:
       PathPrefix: ChoiceHandlers
       ProviderTypes: 0000000001000000
-    guid: 58344c74-2984-4423-95dc-1fe77fbe78f0
+    guid: ecd6edfb-b61a-4c4b-9fdc-01a5d29aabf8
   Metadata:
     ids:
     - ButtonList
@@ -30,12 +30,12 @@ MonoBehaviour:
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/ChoiceHandlers
+        PathPrefix: ChoiceHandlers
         ProviderTypes: 0000000001000000
-      guid: f008e3d4-53c3-4b7a-9af5-2b8076c7a9a1
+      guid: 08fb6c68-b461-4351-bd1a-3ef52f47cb05
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
-        PathPrefix: Naninovel/ChoiceHandlers
+        PathPrefix: ChoiceHandlers
         ProviderTypes: 0000000001000000
-      guid: 0a3af1d4-826e-4091-93e8-947ebfb880dd
+      guid: 2f280e3f-37dc-41c0-9b5e-8f3351c9ff42
