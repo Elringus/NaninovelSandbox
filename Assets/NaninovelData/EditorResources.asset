@@ -150,3 +150,7 @@ MonoBehaviour:
     - Name: HowToUsePanel
       PathPrefix: UI
       Guid: 380e6367fec77e243b5327684f9ad806
+  - Id: Backgrounds/da6000f2-645b-40eb-b365-b7034404987b
+    Resources: []
+  - Id: Avatar
+    Resources: []

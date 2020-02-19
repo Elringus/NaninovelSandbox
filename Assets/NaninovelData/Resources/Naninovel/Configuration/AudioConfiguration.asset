@@ -14,10 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioLoader:
     PathPrefix: Audio
-    ProviderTypes: 03000000
+    ProviderTypes:
+    - Naninovel.GoogleDriveResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   VoiceLoader:
     PathPrefix: Voice
-    ProviderTypes: 03000000
+    ProviderTypes:
+    - Naninovel.GoogleDriveResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   EnableAutoVoicing: 0
   VoiceOverlapPolicy: 1
   CustomAudioMixer: {fileID: 0}

@@ -22,7 +22,9 @@ MonoBehaviour:
       PublicKeyToken=null
     Loader:
       PathPrefix: Backgrounds
-      ProviderTypes: 03000000
+      ProviderTypes:
+      - Naninovel.GoogleDriveResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
     guid: 599d3988-6ace-47f2-b6c6-44e76d2d3d68
     Pivot: {x: 0.5, y: 0.5}
     PixelsPerUnit: 100
@@ -38,7 +40,9 @@ MonoBehaviour:
         PublicKeyToken=null
       Loader:
         PathPrefix: Backgrounds
-        ProviderTypes: 03000000
+        ProviderTypes:
+        - Naninovel.GoogleDriveResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
       guid: da6000f2-645b-40eb-b365-b7034404987b
       Pivot: {x: 0.5, y: 0.5}
       PixelsPerUnit: 100

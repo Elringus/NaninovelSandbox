@@ -23,7 +23,9 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     Loader:
       PathPrefix: Characters
-      ProviderTypes: 03000000
+      ProviderTypes:
+      - Naninovel.GoogleDriveResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
     guid: 02011a84-3dd9-42f8-90ec-8a5b75542b66
     Pivot: {x: 0.5, y: 0}
     PixelsPerUnit: 100
@@ -50,4 +52,8 @@ MonoBehaviour:
     metas: []
   AvatarLoader:
     PathPrefix: Avatar
-    ProviderTypes: 0000000001000000
+    ProviderTypes:
+    - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Loader:
     PathPrefix: Scripts
-    ProviderTypes: 03000000
+    ProviderTypes:
+    - Naninovel.GoogleDriveResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   InitializationScript: 
   TitleScript: 
   StartGameScript: 
@@ -32,7 +34,8 @@ MonoBehaviour:
   EnableCommunityModding: 0
   ExternalLoader:
     PathPrefix: Scripts
-    ProviderTypes: 01000000
+    ProviderTypes:
+    - 
   EnableNavigator: 1
   ShowNavigatorOnInit: 1
   NavigatorSortOrder: 900

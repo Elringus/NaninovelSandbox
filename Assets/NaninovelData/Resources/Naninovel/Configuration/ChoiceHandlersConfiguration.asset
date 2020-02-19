@@ -20,7 +20,11 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     Loader:
       PathPrefix: ChoiceHandlers
-      ProviderTypes: 0000000001000000
+      ProviderTypes:
+      - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
     guid: ecd6edfb-b61a-4c4b-9fdc-01a5d29aabf8
   Metadata:
     ids:
@@ -31,11 +35,11 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: ChoiceHandlers
-        ProviderTypes: 0000000001000000
+        ProviderTypes: []
       guid: 08fb6c68-b461-4351-bd1a-3ef52f47cb05
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
         PathPrefix: ChoiceHandlers
-        ProviderTypes: 0000000001000000
+        ProviderTypes: []
       guid: 2f280e3f-37dc-41c0-9b5e-8f3351c9ff42
