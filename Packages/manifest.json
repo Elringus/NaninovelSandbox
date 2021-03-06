@@ -2,7 +2,8 @@
   "dependencies": {
     "com.elringus.unitygoogledrive": "https://github.com/Elringus/UnityGoogleDrive.git#package",
     "com.unity.2d.sprite": "1.0.0",
-    "com.unity.textmeshpro": "2.0.1",
+    "com.unity.ide.rider": "3.0.5",
+    "com.unity.textmeshpro": "2.1.3",
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
@@ -35,11 +36,5 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  },
-  "lock": {
-    "com.elringus.unitygoogledrive": {
-      "revision": "package",
-      "hash": "fcdab032f47a108db528c618fd2d5ba98d9fd652"
-    }
   }
 }

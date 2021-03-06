@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 363a6aca1d4bf3c49a1294c9ba1e9883, type: 3}
   m_Name: UnlockablesConfiguration
   m_EditorClassIdentifier: 
-  LoaderConfiguration:
+  Loader:
     PathPrefix: Unlockables
-    ProviderTypes: 0000000001000000
+    ProviderTypes:
+    - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null

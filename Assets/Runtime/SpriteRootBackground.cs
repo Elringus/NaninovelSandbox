@@ -1,6 +1,7 @@
 ﻿using Naninovel;
 using UnityEngine;
 
+[ActorResources(typeof(Texture2D), true)]
 public class SpriteRootBackground : SpriteBackground
 {
     public SpriteRootBackground (string id, BackgroundMetadata metadata)
@@ -10,11 +11,11 @@ public class SpriteRootBackground : SpriteBackground
     {
         // Override the path prefix of the loader so that background sprites
         // can be loaded from the root of the `/Backgrounds` folder.
-        var providerMngr = Engine.GetService<ResourceProviderManager>();
-        var localeMngr = Engine.GetService<LocalizationManager>();
+        var providerManager = Engine.GetService<IResourceProviderManager>();
+        var localeManager = Engine.GetService<ILocalizationManager>();
         var appearanceLoader = new LocalizableResourceLoader<Texture2D>(
-            providerMngr.GetProviders(metadata.Loader.ProviderTypes),
-            localeMngr, metadata.Loader.PathPrefix);
+            providerManager.GetProviders(metadata.Loader.ProviderTypes),
+            providerManager, localeManager, metadata.Loader.PathPrefix);
 
         return appearanceLoader;
     }

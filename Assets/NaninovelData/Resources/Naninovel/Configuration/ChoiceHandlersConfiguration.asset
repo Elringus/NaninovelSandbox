@@ -25,7 +25,9 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-    guid: ecd6edfb-b61a-4c4b-9fdc-01a5d29aabf8
+    guid: 0f037e02-dcea-46ae-bd3a-84c38a39adfc
+    customData:
+      id: 0
   Metadata:
     ids:
     - ButtonList
@@ -40,7 +42,9 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 08fb6c68-b461-4351-bd1a-3ef52f47cb05
+      guid: 24763e8c-287f-4f92-9c40-557cd728281b
+      customData:
+        id: 0
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -50,4 +54,10 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 2f280e3f-37dc-41c0-9b5e-8f3351c9ff42
+      guid: 3461c12c-c2c5-408b-ae97-4a645580ce9b
+      customData:
+        id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }

@@ -19,6 +19,10 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
     - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  OverrideObjectsLayer: 1
   ObjectsLayer: 5
-  RenderMode: 1
-  SortingOffset: 1
+  FontOptions:
+  - FontName: Noto Sans
+    Font: {fileID: 12800000, guid: b4408112a19b4cd49851791385e9d11e, type: 3}
+    TMPFont: {fileID: 0}
+  DefaultFont: Noto Sans

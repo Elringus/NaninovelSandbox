@@ -13,144 +13,149 @@ MonoBehaviour:
   m_Name: EditorResources
   m_EditorClassIdentifier: 
   resourceCategories:
-  - Id: TextPrinters/7a4aa8f0-a7b8-4733-940e-9835fa20d5df
+  - Id: TextPrinters/447fcc83-8485-48b5-8a66-ede686162dda
     Resources:
-    - Name: Dialogue
-      PathPrefix: TextPrinters
-      Guid: 0c7ad8c02fbc28a43b25ac946be5c361
-  - Id: TextPrinters/b564cdd1-1c54-4948-b4fa-6ca6266c4d8e
+    - name: Dialogue
+      pathPrefix: TextPrinters
+      guid: 1bc08ccd31adff6439e97161aa6e1d8b
+  - Id: TextPrinters/c7791ff2-0b97-4e2f-9ef8-e294bb5ce46f
     Resources:
-    - Name: Fullscreen
-      PathPrefix: TextPrinters
-      Guid: 661930b2b6204f14baf58f94b975b6f5
-  - Id: TextPrinters/c233dac3-3108-47aa-950c-3e107a354778
+    - name: Fullscreen
+      pathPrefix: TextPrinters
+      guid: c87cebd3f0d4f174789cd351ce9591c4
+  - Id: TextPrinters/b4fde943-72ea-4eb7-8c9a-5cdd3dac0767
     Resources:
-    - Name: Wide
-      PathPrefix: TextPrinters
-      Guid: fb0ece97b6cd13848973923a164c71ec
-  - Id: TextPrinters/7ef97e5e-eb1c-42f8-a03b-88275603e3ca
+    - name: Wide
+      pathPrefix: TextPrinters
+      guid: 781828b806deb1e4cbf50ef9de41da10
+  - Id: TextPrinters/873181e1-1bb6-426c-9745-2a2e2bfcbf8b
     Resources:
-    - Name: Chat
-      PathPrefix: TextPrinters
-      Guid: 52ac604e52fcd7e48a51a55b06aa084b
-  - Id: TextPrinters/b090f864-445c-41d2-b06d-4e4d0cb5b438
+    - name: Chat
+      pathPrefix: TextPrinters
+      guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
+  - Id: TextPrinters/f3dce0a2-48bf-4607-b2b5-216385fa8de3
     Resources:
-    - Name: Bubble
-      PathPrefix: TextPrinters
-      Guid: a286e3fcfb3645145a6c50ef5b4283c0
-  - Id: TextPrinters/a2e9d049-f333-4688-8312-913f89fe458b
+    - name: Bubble
+      pathPrefix: TextPrinters
+      guid: b47d9659b2be5ee4e95a776f213c9d4b
+  - Id: TextPrinters/f61cbaf0-a244-4b41-830b-ccebeec48738
     Resources:
-    - Name: TMProDialogue
-      PathPrefix: TextPrinters
-      Guid: 5838611042eaced44954639c4ea4d81e
-  - Id: TextPrinters/0b7ddd42-e935-4a90-b61c-42a0aad21042
+    - name: TMProDialogue
+      pathPrefix: TextPrinters
+      guid: 5838611042eaced44954639c4ea4d81e
+  - Id: TextPrinters/683a3038-4964-4028-a640-f965176773b3
     Resources:
-    - Name: TMProFullscreen
-      PathPrefix: TextPrinters
-      Guid: a2aaa417785eeca409e78c404f333ee5
-  - Id: TextPrinters/5d0e8099-badc-4c2d-94ff-3249af61f932
+    - name: TMProFullscreen
+      pathPrefix: TextPrinters
+      guid: a2aaa417785eeca409e78c404f333ee5
+  - Id: TextPrinters/0362c826-f74e-4f27-82fc-363f6fbf9a31
     Resources:
-    - Name: TMProWide
-      PathPrefix: TextPrinters
-      Guid: 7860ef40eae6a3341be02586f7edd980
-  - Id: TextPrinters/24e4fd00-43f6-4a2f-9133-87b83936cd23
+    - name: TMProWide
+      pathPrefix: TextPrinters
+      guid: 7860ef40eae6a3341be02586f7edd980
+  - Id: TextPrinters/d8f4185e-5889-477d-80f5-1606b765de8f
     Resources:
-    - Name: TMProBubble
-      PathPrefix: TextPrinters
-      Guid: 18cfa78b5fc89b745ba69d51a6a8629a
-  - Id: ChoiceHandlers/08fb6c68-b461-4351-bd1a-3ef52f47cb05
+    - name: TMProBubble
+      pathPrefix: TextPrinters
+      guid: 18cfa78b5fc89b745ba69d51a6a8629a
+  - Id: ChoiceHandlers/24763e8c-287f-4f92-9c40-557cd728281b
     Resources:
-    - Name: ButtonList
-      PathPrefix: ChoiceHandlers
-      Guid: 1f6aa29000e839c409e6a9c0704adc96
-  - Id: ChoiceHandlers/2f280e3f-37dc-41c0-9b5e-8f3351c9ff42
+    - name: ButtonList
+      pathPrefix: ChoiceHandlers
+      guid: 1f6aa29000e839c409e6a9c0704adc96
+  - Id: ChoiceHandlers/3461c12c-c2c5-408b-ae97-4a645580ce9b
     Resources:
-    - Name: ButtonArea
-      PathPrefix: ChoiceHandlers
-      Guid: 4fa6d62f894ae6e4698bfa8af59e7942
+    - name: ButtonArea
+      pathPrefix: ChoiceHandlers
+      guid: 4fa6d62f894ae6e4698bfa8af59e7942
   - Id: Spawn
     Resources:
-    - Name: Animate
-      PathPrefix: Spawn
-      Guid: 7bf06fa813bb9c34daf521998fa72ab1
-    - Name: DepthOfField
-      PathPrefix: Spawn
-      Guid: ea76638b26a915946b62907dd1e776fd
-    - Name: DigitalGlitch
-      PathPrefix: Spawn
-      Guid: be75a73ecccb90b4caa5c14edb9ac467
-    - Name: Rain
-      PathPrefix: Spawn
-      Guid: a9117e2fa90704d45b3e1461596c11ee
-    - Name: ShakeBackground
-      PathPrefix: Spawn
-      Guid: 9f56c556ba32fd54fae62347c25a8145
-    - Name: ShakeCamera
-      PathPrefix: Spawn
-      Guid: 1c5b86cf3cfbb1f44ae5641699077da4
-    - Name: ShakeCharacter
-      PathPrefix: Spawn
-      Guid: 1224d69e1592d624cbde93d0f7383d91
-    - Name: ShakePrinter
-      PathPrefix: Spawn
-      Guid: 2795040988e866646801c80024c50be1
-    - Name: Snow
-      PathPrefix: Spawn
-      Guid: 9f4e71cb27fffa04486737d2cf8d622d
-    - Name: SunShafts
-      PathPrefix: Spawn
-      Guid: c4bf810b9b6cc9f44a58fd670678ded4
+    - name: Animate
+      pathPrefix: Spawn
+      guid: 7bf06fa813bb9c34daf521998fa72ab1
+    - name: DepthOfField
+      pathPrefix: Spawn
+      guid: ea76638b26a915946b62907dd1e776fd
+    - name: DigitalGlitch
+      pathPrefix: Spawn
+      guid: be75a73ecccb90b4caa5c14edb9ac467
+    - name: Rain
+      pathPrefix: Spawn
+      guid: a9117e2fa90704d45b3e1461596c11ee
+    - name: ShakeBackground
+      pathPrefix: Spawn
+      guid: 9f56c556ba32fd54fae62347c25a8145
+    - name: ShakeCamera
+      pathPrefix: Spawn
+      guid: 1c5b86cf3cfbb1f44ae5641699077da4
+    - name: ShakeCharacter
+      pathPrefix: Spawn
+      guid: 1224d69e1592d624cbde93d0f7383d91
+    - name: ShakePrinter
+      pathPrefix: Spawn
+      guid: 2795040988e866646801c80024c50be1
+    - name: Snow
+      pathPrefix: Spawn
+      guid: 9f4e71cb27fffa04486737d2cf8d622d
+    - name: SunShafts
+      pathPrefix: Spawn
+      guid: c4bf810b9b6cc9f44a58fd670678ded4
+    - name: Blur
+      pathPrefix: Spawn
+      guid: e466d9326b30a4b49a3dad428b4d9968
   - Id: UI
     Resources:
-    - Name: ClickThroughPanel
-      PathPrefix: UI
-      Guid: 702c32b2de0c0784b9a66ec90601874f
-    - Name: IBacklogUI
-      PathPrefix: UI
-      Guid: 7fba909c66b25324cb77db18679c2c96
-    - Name: ICGGalleryUI
-      PathPrefix: UI
-      Guid: 71da50c8dae82bd42ba67528804e820c
-    - Name: IConfirmationUI
-      PathPrefix: UI
-      Guid: 88d03f19bcbff914ba33a7c9895e2d7c
-    - Name: IContinueInputUI
-      PathPrefix: UI
-      Guid: 1add671f8348e8443bcc56290e82fc5e
-    - Name: IExternalScriptsUI
-      PathPrefix: UI
-      Guid: 671ceb4f549ddf046913d7debf113469
-    - Name: ILoadingUI
-      PathPrefix: UI
-      Guid: 53aad00e5cf184e458adb001c550518a
-    - Name: IMovieUI
-      PathPrefix: UI
-      Guid: f9a211517d1cb1a44964dc2254463049
-    - Name: IRollbackUI
-      PathPrefix: UI
-      Guid: a32c73a3aff4b274c85b3ff16c854b07
-    - Name: ISaveLoadUI
-      PathPrefix: UI
-      Guid: 8d53726b3d08433479398f02b4780e7f
-    - Name: ISceneTransitionUI
-      PathPrefix: UI
-      Guid: e3b234b4273b7f64ab3f1d9fe425ed23
-    - Name: ISettingsUI
-      PathPrefix: UI
-      Guid: 65c37f59e9b266f468dd5381fdc03fc3
-    - Name: ITipsUI
-      PathPrefix: UI
-      Guid: f5aae572225ee1b4c96d1a17fc5cb073
-    - Name: ITitleUI
-      PathPrefix: UI
-      Guid: 157d98b79e8b621498ee510ab7a29df8
-    - Name: IVariableInputUI
-      PathPrefix: UI
-      Guid: bb95f484e341dcd4391a572f22b7d067
-    - Name: HowToUsePanel
-      PathPrefix: UI
-      Guid: 380e6367fec77e243b5327684f9ad806
-  - Id: Backgrounds/da6000f2-645b-40eb-b365-b7034404987b
-    Resources: []
-  - Id: Avatar
-    Resources: []
+    - name: ClickThroughPanel
+      pathPrefix: UI
+      guid: 702c32b2de0c0784b9a66ec90601874f
+    - name: BacklogUI
+      pathPrefix: UI
+      guid: 7fba909c66b25324cb77db18679c2c96
+    - name: CGGalleryUI
+      pathPrefix: UI
+      guid: 71da50c8dae82bd42ba67528804e820c
+    - name: ConfirmationUI
+      pathPrefix: UI
+      guid: 88d03f19bcbff914ba33a7c9895e2d7c
+    - name: ContinueInputUI
+      pathPrefix: UI
+      guid: 1add671f8348e8443bcc56290e82fc5e
+    - name: ExternalScriptsUI
+      pathPrefix: UI
+      guid: 671ceb4f549ddf046913d7debf113469
+    - name: LoadingUI
+      pathPrefix: UI
+      guid: 53aad00e5cf184e458adb001c550518a
+    - name: MovieUI
+      pathPrefix: UI
+      guid: f9a211517d1cb1a44964dc2254463049
+    - name: RollbackUI
+      pathPrefix: UI
+      guid: a32c73a3aff4b274c85b3ff16c854b07
+    - name: SaveLoadUI
+      pathPrefix: UI
+      guid: 8d53726b3d08433479398f02b4780e7f
+    - name: SceneTransitionUI
+      pathPrefix: UI
+      guid: e3b234b4273b7f64ab3f1d9fe425ed23
+    - name: SettingsUI
+      pathPrefix: UI
+      guid: 65c37f59e9b266f468dd5381fdc03fc3
+    - name: TipsUI
+      pathPrefix: UI
+      guid: f5aae572225ee1b4c96d1a17fc5cb073
+    - name: TitleUI
+      pathPrefix: UI
+      guid: 157d98b79e8b621498ee510ab7a29df8
+    - name: VariableInputUI
+      pathPrefix: UI
+      guid: bb95f484e341dcd4391a572f22b7d067
+    - name: PauseUI
+      pathPrefix: UI
+      guid: 480f5db62ea305c46b89a86496d2a0c9
+    - name: ToastUI
+      pathPrefix: UI
+      guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: HowToUsePanel
+      pathPrefix: UI
+      guid: 380e6367fec77e243b5327684f9ad806

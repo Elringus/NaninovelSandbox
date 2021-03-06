@@ -15,7 +15,14 @@ MonoBehaviour:
   GeneratedDataPath: NaninovelData
   OverrideObjectsLayer: 0
   ObjectsLayer: 0
+  AsyncExceptionLogType: 0
+  TypeAssemblies:
+  - Assembly-CSharp
+  - Assembly-CSharp-Editor
+  - Elringus.Naninovel.Runtime
+  - Elringus.Naninovel.Editor
   InitializeOnApplicationLoad: 1
+  SceneIndependent: 1
   ShowInitializationUI: 1
   CustomInitializationUI: {fileID: 0}
   ShowTitleUI: 1
